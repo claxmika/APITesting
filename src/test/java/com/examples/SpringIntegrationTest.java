@@ -37,7 +37,7 @@ public class SpringIntegrationTest {
 
 		 String body = client.execute(httpGet, handler);
 		 
-		 httpGet=null;
+		 client=null;
 		
 	}
 
