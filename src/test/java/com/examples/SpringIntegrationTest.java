@@ -36,6 +36,8 @@ public class SpringIntegrationTest {
 		 ResponseHandler<String> handler = new BasicResponseHandler();
 
 		 String body = client.execute(httpGet, handler);
+		 
+		 httpGet=null;
 		
 	}
 
